@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fontes em CSS</title>
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Quicksand:wght@400;500;700&display=swap');
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw (viewport width), vh (viewport height), %
+
+            16px geralmente é = 1em
+            recomendado usar ou px ou em
+            */
+            font-size: 1em;
+            font-weight: normal;
+            /*font-style: italic;
+            text-decoration: underline;*/
+            /* 
+            lighter  normal  bold  bolder 
+            
+            100-900
+            */
+        }
+        h1 {
+            /*
+            Configurações anteriores:
+
+            font-family: 'Poppins', sans-serif;
+            font-size: 3em;
+            font-weight: bolder;
+            font-style: italic;*/
+
+            /*
+            Shorthand font
+            
+            font-style -> font-weight -> font-size -> font-family
+            */
+            /*Nova configuração*/
+            font: italic bolder 3em 'Poppins', sans-serif;
+        }
+        h2 {
+            font: bold 1em 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quo enim corporis expedita quaerat possimus tempora, esse inventore beatae maxime, voluptates unde sapiente debitis illum veniam eius fugiat itaque quas?Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, ab iusto quisquam velit nam adipisci aliquam provident impedit expedita blanditiis est perferendis dolore facilis totam optio nobis corrupti eius recusandae. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi ducimus esse impedit, animi accusantium laudantium repellendus? Fuga, veritatis reprehenderit iusto ratione, molestias, quibusdam ex minima assumenda perspiciatis repellendus quae voluptates.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nam, enim itaque vel laudantium provident molestias voluptas dignissimos officiis hic id consequuntur optio, aspernatur nulla porro harum, expedita autem eos.</p>
+        <h2>Subtítulo do exercício</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit dolore aut aliquam illo sequi. Provident earum eius iste, vero placeat vitae saepe officiis ipsum voluptatum, corporis nobis atque molestias minima.</p>
+</body>
+</html>

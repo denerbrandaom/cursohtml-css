@@ -1,0 +1,27 @@
+body {
+    background-color: #272727;
+}
+h1 {
+    color: #707070;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: darkslateblue;
+}
+h2 {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    text-align: justify;
+    line-height: 24px;
+}
+.linkpagina {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    font: bold 12pt Arial;
+    color: blueviolet;
+}
