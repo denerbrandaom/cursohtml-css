@@ -4,13 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: blue;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: blueviolet;
+        }
+        a:hover {
+            color: blue;
+            text-decoration: underline;
+        }
+        a:active {
+            color: red;
+            text-decoration: underline;
+        }
+        a::after {
+            content: '  ⇐';
+            font-weight: normal;
+            text-decoration: none;
+            color: silver;
+        }
+    </style>
 </head>
 <body>
     <h1>Personalizando links</h1>
     <ul>
-        <li><a href="https://github.com/denerbrandaom">Repositório Github</a></li>
-        <li><a href=""> Canal do Youtube</a></li>
-        <li><a href="">Instagram</a></li>
+        <li><a href="https://github.com/denerbrandaom" target="_blank">Repositório Github</a></li>
+        <li><a href="https://www.youtube.com/@denerbrandaom/featured" target="_blank"> Canal do Youtube</a></li>
+        <li><a href="https://www.instagram.com/_denerbrandaom/" target="_blank">Instagram</a></li>
     </ul>
 </body>
 </html>
